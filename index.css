@@ -1,0 +1,40 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("fundo-alarme.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+p{
+    color: #fff;
+    font-size: 18px;
+}
+select{
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+option{
+    background-color: rgba(19, 29, 167, 0.781);
+    font-size: 18px;
+}
+button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: 20px;
+    color: rgba(13, 13, 184, 0.781);
+    background-color: #fff;
+    font-size: 18px;
+}
+button:hover{
+    width: 200px;
+}
