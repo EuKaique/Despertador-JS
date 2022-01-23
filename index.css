@@ -38,3 +38,45 @@ button{
 button:hover{
     width: 200px;
 }
+
+@media screen and (max-width: 800px){
+    body{
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        height: 100vh;
+    }
+    h1 {
+        color: aliceblue;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        height: 100vh;
+    }
+    h1 {
+        color: aliceblue;
+        font-size: 60px;
+        margin-top: 35%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    body{
+        height: 100vh;
+    }
+    h1 {
+        color: aliceblue;
+        font-size: 45px;
+        margin-top: 60%;
+    }
+    p{
+        font-size: 16px;
+    }
+}
